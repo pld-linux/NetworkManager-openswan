@@ -1,15 +1,15 @@
 Summary:	NetworkManager VPN integration for openswan
 Summary(pl.UTF-8):	Integracja NetworkManagera z openswan
 Name:		NetworkManager-openswan
-Version:	0.9.0
+Version:	0.9.2.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/NetworkManager-openswan/0.9/%{name}-%{version}.tar.xz
-# Source0-md5:	9b5bc96d36ba672c1a35d7ecbbda4116
+# Source0-md5:	23338bd08049ffa1eb61df084d1d99db
 URL:		http://projects.gnome.org/NetworkManager/
 BuildRequires:	GConf2-devel >= 2.0
-BuildRequires:	NetworkManager-devel >= 2:0.9
+BuildRequires:	NetworkManager-devel >= 2:0.9.2.0
 BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel >= 0.74
@@ -22,7 +22,7 @@ BuildRequires:	libxml2-devel >= 2.0
 BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
-Requires:	NetworkManager >= 2:0.9
+Requires:	NetworkManager >= 2:0.9.2.0
 Requires:	dbus-glib >= 0.74
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
