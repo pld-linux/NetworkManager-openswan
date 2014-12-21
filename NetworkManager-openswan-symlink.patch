@@ -1,0 +1,11 @@
+--- NetworkManager-openswan-1.0.0/src/Makefile.am.orig	2014-12-21 17:29:43.804895083 +0100
++++ NetworkManager-openswan-1.0.0/src/Makefile.am	2014-12-21 17:29:51.711518916 +0100
+@@ -36,7 +36,7 @@ nm_openswan_service_helper_LDADD = \
+ 	$(LIBNL_LIBS)
+ 
+ install-exec-hook:
+-	$(LN_S) -f $(DESTDIR)$(libexecdir)/nm-openswan-service-helper \
++	$(LN_S) -f nm-openswan-service-helper \
+ 		$(DESTDIR)$(libexecdir)/nm-libreswan-service-helper
+ 
+ uninstall-hook:
