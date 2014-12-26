@@ -16,10 +16,10 @@ BuildRequires:	autoconf >= 2.52
 BuildRequires:	automake
 BuildRequires:	dbus-glib-devel >= 0.74
 BuildRequires:	gettext-devel
-BuildRequires:	glib2-devel >= 2.32.0
+BuildRequires:	glib2-devel >= 1:2.32
 BuildRequires:	gtk+3-devel >= 3.4.0
 BuildRequires:	intltool >= 0.35.0
-BuildRequires:	libnl-devel >= 3.2.8
+BuildRequires:	libnl-devel >= 1:3.2.8
 BuildRequires:	libsecret-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel >= 2.0
@@ -27,8 +27,11 @@ BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 Requires:	NetworkManager >= 2:1.0.0
+Requires:	NetworkManager-gtk-lib >= 1.0.0
 Requires:	dbus-glib >= 0.74
+Requires:	glib2 >= 1:2.32
 Requires:	gtk+3 >= 3.4.0
+Requires:	libnl >= 1:3.2.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
