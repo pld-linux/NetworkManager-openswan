@@ -8,7 +8,7 @@ Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/NetworkManager-openswan/1.0/%{name}-%{version}.tar.xz
 # Source0-md5:	df9144805f37dc30dfaeab8da762f615
 Patch0:		%{name}-symlink.patch
-URL:		http://projects.gnome.org/NetworkManager/
+URL:		https://wiki.gnome.org/Projects/NetworkManager
 BuildRequires:	NetworkManager-devel >= 2:1.0.0
 BuildRequires:	NetworkManager-gtk-lib-devel >= 1.0.0
 BuildRequires:	autoconf >= 2.52
